@@ -18,18 +18,40 @@
     <meta property="og:description" content="매출을 창출하는 채팅채널의 활용 방법 1편, 약국 온라인 마케팅 노하우를 팜스타트에서 무료로 확인하세요.">
     <meta property="og:image" content="제목을 입력해주세요. (14).png">
     <style>
-        :root { --primary-color: #2563eb; --text-color: #1f2937; --bg-color: #f9fafb; }
-        body { font-family: 'Pretendard', -apple-system, sans-serif; line-height: 1.8; color: var(--text-color); background-color: var(--bg-color); margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-        header { border-bottom: 2px solid #eee; margin-bottom: 40px; padding-bottom: 20px; }
-        .category { color: var(--primary-color); font-weight: bold; font-size: 0.9rem; text-transform: uppercase; }
-        h1 { font-size: 2.2rem; line-height: 1.3; margin: 10px 0; color: #111; word-break: keep-all; }
-        .content { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        h2 { font-size: 1.5rem; color: var(--primary-color); margin-top: 40px; border-left: 4px solid var(--primary-color); padding-left: 15px; }
-        p { margin-bottom: 20px; font-size: 1.1rem; color: #374151; text-align: justify; }
-        .highlight { background-color: #eff6ff; padding: 20px; border-radius: 10px; border-left: 4px solid #3b82f6; font-style: italic; margin: 30px 0; }
-        footer { text-align: center; margin-top: 50px; color: #9ca3af; font-size: 0.9rem; }
-    </style>
+    :root { --primary-color: #2563eb; --text-color: #1f2937; --bg-color: #f9fafb; }
+    body { font-family: 'Pretendard', -apple-system, sans-serif; line-height: 1.8; color: var(--text-color); background-color: var(--bg-color); margin: 0; padding: 0; }
+    
+    /* 1. 컨테이너 폭 확장 및 여백 최소화 */
+    .container { 
+        max-width: 1000px; /* 기존 800px에서 1000px로 확장 */
+        margin: 0 auto; 
+        padding: 20px 15px; /* 상하좌우 여백을 줄임 */
+    }
+    
+    header { text-align: center; border-bottom: 2px solid #eee; margin-bottom: 30px; padding-bottom: 20px; }
+    .category { color: var(--primary-color); font-weight: bold; font-size: 1rem; margin-bottom: 10px; }
+    
+    /* 2. 제목 크기 및 가독성 조절 */
+    h1 { font-size: 2.5rem; line-height: 1.3; margin: 10px 0; color: #111; word-break: keep-all; }
+    
+    /* 3. 본문 영역 넓게 활용 */
+    .content { 
+        background: white; 
+        padding: 50px 40px; /* 내부 여백을 조정하여 글의 집중도 향상 */
+        border-radius: 16px; 
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05); 
+    }
+    
+    h2 { font-size: 1.7rem; color: var(--primary-color); margin-top: 50px; border-left: 5px solid var(--primary-color); padding-left: 15px; }
+    p { margin-bottom: 25px; font-size: 1.2rem; color: #374151; text-align: justify; }
+    
+    /* 모바일 대응 */
+    @media (max-width: 768px) {
+        h1 { font-size: 1.8rem; }
+        .content { padding: 30px 20px; }
+        p { font-size: 1.1rem; }
+    }
+</style>
 </head>
 <body>
 
@@ -113,6 +135,7 @@
 
 </body>
 </html>
+
 
 
 
